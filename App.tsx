@@ -25,7 +25,7 @@ const styles = StyleSheet.create({
     flexDirection: 'column',
   },
   view1: {
-    flex: 1,
+    flex: 2,
     backgroundColor: '#eee',
         alignItems: 'center',
     justifyContent: 'center',
@@ -35,7 +35,7 @@ const styles = StyleSheet.create({
     backgroundColor: '#fcc',
   },
   view3: {
-    flex: 1,
+    flex: 2,
     backgroundColor: 'orange',
   },
   view4: {
