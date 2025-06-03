@@ -1,14 +1,14 @@
 import React from 'react';
 import { View, Text, Image, StyleSheet } from 'react-native';
 
-type CommentVisuellCardProps = {
+type CommentVisualCardProps = {
   creator: string;
   content: string;
   profilePicUrl: string;
   likes?: string[];
 };
 
-const CommentVisuellCard: React.FC<CommentVisuellCardProps> = ({
+const CommentVisualCard: React.FC<CommentVisualCardProps> = ({
   creator,
   content,
   profilePicUrl,
@@ -75,4 +75,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default CommentVisuellCard;
+export default CommentVisualCard;
